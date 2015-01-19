@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".StatusActivity$PlaceholderFragment"
+    android:background="@android:color/holo_orange_light"
+    >
+
+    <TextView
+        android:id="@+id/txtStatus"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="@string/txtTCPDumpMissing"
+        android:textAlignment="center"
+        android:textSize="60sp"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/frmInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnStart"
+        android:orientation="vertical"
+        android:layout_margin="15dp"
+        android:visibility="gone"
+        >
+        <TextView
+            android:id="@+id/txtUpTime"
+            android:textColor="@android:color/holo_green_dark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Time running:"
+            />
+        <TextView
+            android:id="@+id/txtPacketCounter"
+            android:textColor="@android:color/holo_green_dark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bytes counted:"
+            />
+        <TextView
+            android:id="@+id/txtBenchmarkCounter"
+            android:textColor="@android:color/holo_green_dark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Benchmarks made:"
+            />
+
+        </LinearLayout>
+
+    <Button
+        android:id="@+id/btnStart"
+
+        android:textAlignment="center"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:background="@drawable/btn_background"
+
+        android:text="@string/Start"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        android:layout_margin="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+
+        />
+
+
+
+</RelativeLayout>

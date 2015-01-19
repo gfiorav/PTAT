@@ -1,0 +1,34 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.imdea.fioravantti.guido.ecousin_ptat.fragments.TapBar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="@android:color/darker_gray"
+        android:gravity="end"
+        >
+
+        <ImageButton
+            android:id="@+id/btnAbout"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/about"
+            />
+
+        <ImageButton
+            android:id="@+id/btnPreferences"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/preferences"
+            />
+    </LinearLayout>
+
+
+</FrameLayout>

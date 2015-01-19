@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">eCOUSIN-PTAT</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="txtPreferences">Preferences</string>
+    <string name="title_activity_preferences">PreferencesActivity</string>
+    <string name="txtTCPDumpMissing">TCPDump missing</string>
+    <string name="stopped">Stopped</string>
+    <string name="running">Running</string>
+    <string name="stop">STOP</string>
+    <string name="start">START</string>
+    <string name="Start">START</string>
+    <string name="txtNotTitle">eCOUSIN PTAT App</string>
+    <string name="txtNotBody">Tap to see status</string>
+    <string name="txtNotTicker">PTAT Running</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="contact_info">eCOUSIN PTAT is work by Guido Fioravantti. If you find any issues with the app or any bugs, please don\'t hesitate to contact me: guido.fioravantti@imdea.org.</string>
+    <string name="defaults">DEFAULTS</string>
+
+</resources>
