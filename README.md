@@ -16,4 +16,9 @@ This tool allows to comprehend passive traffic on devices running Android. It is
 2. Root access on said device
 3. ARM compilation of tcpdump with name 'tcpdump' located in /system/xbin/
 
+## Credits
 
+This software was developed by Guido Fioravantti and supervised by Joerg Widmer at IMDEA Networks Institute, Madrid, Spain.
+
+
+### EOF
