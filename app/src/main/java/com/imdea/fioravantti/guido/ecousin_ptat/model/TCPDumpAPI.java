@@ -66,6 +66,7 @@ public class TCPDumpAPI {
 
             DataOutputStream dos = new DataOutputStream(su.getOutputStream());
 
+            ensureDirectory();
             enterCommand(command, dos);
 
             dos.close();
